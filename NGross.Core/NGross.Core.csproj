@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>0.0.1</PackageVersion>
+        <Authors>Robert Gaskin</Authors>
+        <Description>Core Framework for NGross</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BoDi" Version="1.5.0" />
+      <PackageReference Include="JetBrains.Annotations" Version="2022.1.0" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0-preview.4.22229.4" />
+      <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Assembly\**" />
+    </ItemGroup>
+    <ItemGroup>
+      <EmbeddedResource Remove="Assembly\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Assembly\**" />
+    </ItemGroup>
+
+</Project>

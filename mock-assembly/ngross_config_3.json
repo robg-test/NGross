@@ -1,0 +1,10 @@
+{
+    "ThreadGroupConfig": {
+        "ConfigC": {
+            "Users": 5,
+            "Ramp-up": 200,
+            "Loop": 2,
+            "ErrorBehaviour": "Continue"
+        }
+    }
+}

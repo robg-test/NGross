@@ -1,0 +1,11 @@
+{
+    "ThreadGroupConfig": {
+        "ConfigB": {
+            "Users": 1,
+            "Ramp-up": 100,
+            "Loop": 1,
+            "ErrorBehaviour": "Continue"
+        }
+    },
+    "Configs": ["ngross_config_3.json"]
+}

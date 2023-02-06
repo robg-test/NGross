@@ -1,0 +1,12 @@
+{
+    "ThreadGroupConfig": {
+        "ConfigA": {
+            "Users": 3,
+            "Ramp-up": 12,
+            "Loop": 1,
+            "ErrorBehaviour": "Continue",
+            "Type": "Generic Thread Group"
+        }
+    },
+    "Configs": ["ngross_config_2.json"]
+}
