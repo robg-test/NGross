@@ -15,6 +15,7 @@ public class ThreadGroupTest
         ThreadGroup threadGroup = new(typeof(MockFixture), "ConfigA");
 
         threadGroup.ThreadGroupConfigurationReference.ShouldBe("ConfigA");
+        threadGroup.ThreadGroupName.ShouldBe("mock_assembly.MockFixture");
         threadGroup.Calculator.ShouldBeOfType<ThreadCalculator>();
         threadGroup.ThreadGroupInstance.ShouldBeOfType<MockFixture>();
         threadGroup.Actions.ShouldBeEmpty();

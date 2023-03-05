@@ -21,9 +21,9 @@ public class MockFixture
     /// <param name="tgContext">The context belonging to the ThreadGroup /\ See above. All threads share this context.</param>
     /// <param name="userContext">The context belonging to a User (Thread). Each Thread has it's own context</param>
     [Action]
-    public async Task Execute(UserContext userContext, ThreadGroupContext tgContext)
+    public void Execute(UserContext userContext, ThreadGroupContext tgContext)
     {
-        Console.WriteLine($"{userContext.UserIdentifier},{userContext.UserIteration}");
+        Console.Write("Hello!");
     }
 
     public async Task FaultExecute(string context)

@@ -15,12 +15,104 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b649692b-6e54-4566-977a-9c55286590fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NGross.Core.Test/Calculators/ThreadCalculatorTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NGross.Core.Test/Elements/ThreadGroupTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NGross.Core.Test/Manager/TestExecutionManagerTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NGross.Core/Sleeper/ISleeper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NGross.Core/Sleeper/Sleeper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NGross.Core/Measurers/IMeasurer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NGross.Core/Measurers/Measurer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NGross.Core/Measurers/Statistics/IStatistic.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NGross.Core/Measurers/Statistics/Statistic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NGross/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NGross/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.Core.Test/Elements/ThreadGroupTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NGross.Core.Test/Elements/ThreadGroupTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.Core.Test/Manager/TestExecutionManagerTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NGross.Core.Test/Manager/TestExecutionManagerTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.Core.Test/NGross.Core.Test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NGross.Core.Test/NGross.Core.Test.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.Core/Builders/ITestBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NGross.Core/Builders/ITestBuilder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.Core/Builders/TestBuilder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NGross.Core/Builders/TestBuilder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.Core/Elements/IThreadAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NGross.Core/Elements/IThreadAction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.Core/Elements/IThreadGroup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NGross.Core/Elements/IThreadGroup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.Core/Elements/ThreadAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NGross.Core/Elements/ThreadAction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.Core/Elements/ThreadGroup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NGross.Core/Elements/ThreadGroup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.Core/Engine/Parser/ThreadAction/ActionParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NGross.Core/Engine/Parser/ThreadAction/ActionParser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.Core/Manager/TestExecutionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NGross.Core/Manager/TestExecutionManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.Core/NGross.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NGross.Core/NGross.Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.Runner/NGross.Runner.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/NGross.Runner/NGross.Runner.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.Runner/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NGross.Runner/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/NGross.UI.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/Pages/Charter.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/Pages/Charter.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/Pages/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/Pages/Error.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/Pages/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/Pages/Index.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/Pages/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/Pages/Shared/_Layout.cshtml.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/Pages/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/Pages/_ViewImports.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/Pages/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/js/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NGross.UI/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock-assembly/MockFixture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/mock-assembly/MockFixture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock-assembly/SecondFixture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/mock-assembly/SecondFixture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mock-assembly/mock-assembly.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/mock-assembly/mock-assembly.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +135,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/04205a45f1ef4cb09ad5bf7114e37fde47a00/1b/348e60d7/0200002Apdb56.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/04205a45f1ef4cb09ad5bf7114e37fde47a00/2b/407ad447/02000024pdb53.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/04205a45f1ef4cb09ad5bf7114e37fde47a00/2b/a858d8e4/02000022pdb51.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/25288f22b7c548d8adf4cb3c0171568e75600/fa/a08232ea/02000049pdb65.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/5956701c92ec47bc98145555cd08eafca23890/05/98e9939e/020000AFpdb84.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/5956701c92ec47bc98145555cd08eafca23890/14/7158287c/02000474pdb615.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/5956701c92ec47bc98145555cd08eafca23890/38/591e9384/02000686pdb906.il" root0="SKIP_HIGHLIGHTING" />
@@ -50,12 +143,14 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/5956701c92ec47bc98145555cd08eafca23890/97/d77b2c78/020008A0pdb1146.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/5956701c92ec47bc98145555cd08eafca23890/dd/981b7dc0/02000091pdb76.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/5956701c92ec47bc98145555cd08eafca23890/df/3260d89b/020008CCpdb1158.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/5956701c92ec47bc98145555cd08eafca23890/e1/79796f23/020006F1pdb973.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/5956701c92ec47bc98145555cd08eafca23890/e1/c8b01bde/0200064Bpdb867.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/5956701c92ec47bc98145555cd08eafca23890/f3/90cd6590/02000587pdb759.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/8d1ec82f59e546629ea3afcac9c96df35de00/7a/e70fd820/02000026.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/8d1ec82f59e546629ea3afcac9c96df35de00/d8/2fa87a87/02000007.il" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8d1ec82f59e546629ea3afcac9c96df35de00/9f/957a3ebd/InterfaceMethodWithoutTargetInvocation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8d1ec82f59e546629ea3afcac9c96df35de00/ed/43afc379/AbstractInvocation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/0e9da9b545f36d97378f91ad414678ecc16e34a96adcc824b2cef2196514f/FileNotFoundException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/117c4271f4cf1f303fc5478918ca595e5d22ce995d77101639578f06a323038/MethodInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1af51483c9bf18871cce649b9f966dd7be686536f998c33bba3c5fc4adea4a0/Task.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1efe824dd739c843d8dbc4bc3cd520c67ab06671daa93e6a47113f3f7d204275/ResourceReader.cs" root0="SKIP_HIGHLIGHTING" />
@@ -73,6 +168,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b34cda9bf13421d0d691446062e86e73ba22b7a724d9d34a2425bb1cc627e1/SR.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b8d2795a624ec1ca285de7c049f728624e8b8a82388f8d67db20c33442b28f53/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/bd6261fae937ba8f9a94e40e09319529f8a77ea7c5438cb971c868a26cb986/Select.SpeedOpt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c2884b5b977665ba39b4a29dfb15e6bd28ed854eac4cf71eae11ceb325ead/TestFixtureAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c6ab41c06e93e29b5e15b35109491bf19c65ed7f81e932cdf1d5e80677618/ResourceManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c6ad457575d35dcbff26c9a5e3fb1d92f1d3c55f25ef6ebf475367b5d8/List.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cd7dad1a61a37f6a9c7f6e59edcae687cf23443ebce9fb7a871991b3243be/InterceptionAspects.cs" root0="SKIP_HIGHLIGHTING" />
@@ -91,13 +187,10 @@
     <setting file="file://$PROJECT_DIR$/NGross.Core/Attributes/TestAttributes/ThreadGroupAttribute.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NGross.Core/Engine/Loader/AssemblyLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/NGross.Core/Engine/Loader/IAssemblyLoader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NGross.UI/Pages/Charter.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NGross.UI/Pages/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NGross.UI/Pages/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NGross.UI/Pages/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NGross.UI/Pages/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NGross.UI/Pages/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/NGross.UI/Pages/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/rober/RiderProjects/NGross/NGross.Runner/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/rober/RiderProjects/NGross/NGross.Runner/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/rober/RiderProjects/NGross/NGross.Runner/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/rober/RiderProjects/NGross/NGross.Runner/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -360,7 +453,13 @@
       <workItem from="1675512405217" duration="19107000" />
       <workItem from="1675594293442" duration="1317000" />
       <workItem from="1675595652788" duration="5965000" />
-      <workItem from="1675603382231" duration="2422000" />
+      <workItem from="1675603382231" duration="4788000" />
+      <workItem from="1676203023143" duration="14916000" />
+      <workItem from="1677363268325" duration="1219000" />
+      <workItem from="1677407476067" duration="3000" />
+      <workItem from="1677699956247" duration="1575000" />
+      <workItem from="1678016770587" duration="8000" />
+      <workItem from="1678016820817" duration="3473000" />
     </task>
     <servers />
   </component>
@@ -368,42 +467,11 @@
     <option name="version" value="3" />
   </component>
   <component name="UnitTestsCoverage.Settings">
-    <option name="coveragePercentColumnWidth" value="150" />
+    <option name="coveragePercentColumnWidth" value="49" />
     <option name="sortOrder" value="ASCENDING" />
-    <option name="symbolColumnWidth" value="1037" />
+    <option name="symbolColumnWidth" value="757" />
     <coverage-tree-state>
-      <expand>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 99% 5/409" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 99% 5/409" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="NGross.Core 98% 5/250" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 99% 5/409" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="NGross.Core 98% 5/250" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="NGross.Core 98% 5/250" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 99% 5/409" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="NGross.Core 98% 5/250" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="NGross.Core 98% 5/250" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Elements 88% 4/32" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-        <path>
-          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 99% 5/409" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="NGross.Core 98% 5/250" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="NGross.Core 98% 5/250" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Elements 88% 4/32" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="ThreadGroup 85% 4/26" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </coverage-tree-state>
   </component>
@@ -443,27 +511,8 @@
           <url>file://$PROJECT_DIR$/NGross.UI/Pages/Charter.cshtml</url>
           <properties documentPath="C:\Users\rober\RiderProjects\NGross\NGross.UI\Pages\Charter.cshtml" initialLine="0" isMultiMethodBreakpoint="true">
             <option name="multiMethodBreakpoint" value="true" />
-            <startOffsets>
-              <option value="-1" />
-            </startOffsets>
-            <endOffsets>
-              <option value="-1" />
-            </endOffsets>
           </properties>
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/NGross.Core/Calculators/ThreadCalculator.cs</url>
-          <line>20</line>
-          <properties documentPath="C:\Users\rober\RiderProjects\NGross\NGross.Core\Calculators\ThreadCalculator.cs" initialLine="18" containingFunctionPresentation="method 'CalculatePacing'">
-            <startOffsets>
-              <option value="675" />
-            </startOffsets>
-            <endOffsets>
-              <option value="722" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8d1ec82f59e546629ea3afcac9c96df35de00/ed/43afc379/AbstractInvocation.cs</url>
@@ -479,95 +528,43 @@
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/NGross.Core/Elements/ThreadGroup.cs</url>
-          <line>19</line>
-          <properties documentPath="C:\Users\rober\RiderProjects\NGross\NGross.Core\Elements\ThreadGroup.cs" initialLine="19" containingFunctionPresentation="constructor 'ThreadGroup'">
-            <startOffsets>
-              <option value="648" />
-            </startOffsets>
-            <endOffsets>
-              <option value="732" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/NGross.Core/Elements/ThreadGroup.cs</url>
-          <line>18</line>
-          <properties documentPath="C:\Users\rober\RiderProjects\NGross\NGross.Core\Elements\ThreadGroup.cs" initialLine="18" containingFunctionPresentation="constructor 'ThreadGroup'">
-            <startOffsets>
-              <option value="589" />
-            </startOffsets>
-            <endOffsets>
-              <option value="635" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/NGross.Core.Test/Manager/TestExecutionManagerTest.cs</url>
           <line>118</line>
           <properties documentPath="C:\Users\rober\RiderProjects\NGross\NGross.Core.Test\Manager\TestExecutionManagerTest.cs" initialLine="116" containingFunctionPresentation="method 'UnsupportedParameterInMethod'">
             <startOffsets>
-              <option value="3759" />
+              <option value="3760" />
             </startOffsets>
             <endOffsets>
-              <option value="3760" />
+              <option value="3761" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/NGross.Core/Manager/TestExecutionManager.cs</url>
-          <line>75</line>
-          <properties documentPath="C:\Users\rober\RiderProjects\NGross\NGross.Core\Manager\TestExecutionManager.cs" initialLine="75" containingFunctionPresentation="method 'GetParameterObject'">
+          <line>108</line>
+          <properties documentPath="C:\Users\rober\RiderProjects\NGross\NGross.Core\Manager\TestExecutionManager.cs" initialLine="97" containingFunctionPresentation="method 'RunThreadGroup'">
             <startOffsets>
-              <option value="2855" />
+              <option value="4172" />
             </startOffsets>
             <endOffsets>
-              <option value="2931" />
+              <option value="4252" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="42" />
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/NGross.Core/Manager/TestExecutionManager.cs</url>
-          <line>88</line>
-          <properties documentPath="C:\Users\rober\RiderProjects\NGross\NGross.Core\Manager\TestExecutionManager.cs" initialLine="88" containingFunctionPresentation="method 'RunThreadGroup'">
+          <url>file://$PROJECT_DIR$/NGross.Runner/Program.cs</url>
+          <line>60</line>
+          <properties documentPath="C:\Users\rober\RiderProjects\NGross\NGross.Runner\Program.cs" initialLine="54" containingFunctionPresentation="">
             <startOffsets>
-              <option value="3367" />
+              <option value="1771" />
             </startOffsets>
             <endOffsets>
-              <option value="3593" />
+              <option value="1784" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/NGross.Core/Manager/TestExecutionManager.cs</url>
-          <line>66</line>
-          <properties documentPath="C:\Users\rober\RiderProjects\NGross\NGross.Core\Manager\TestExecutionManager.cs" initialLine="66" containingFunctionPresentation="method 'GetParameterObject'">
-            <startOffsets>
-              <option value="2554" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2609" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/NGross.Core/Manager/TestExecutionManager.cs</url>
-          <line>71</line>
-          <properties documentPath="C:\Users\rober\RiderProjects\NGross\NGross.Core\Manager\TestExecutionManager.cs" initialLine="71" containingFunctionPresentation="method 'GetParameterObject'">
-            <startOffsets>
-              <option value="2698" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2760" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="49" />
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
         <breakpoint enabled="true" type="DotNet Exception Breakpoints">
           <properties exception="System.NullReferenceException" isInternal="false" displayValue="NullReferenceException" namespaceName="System">
@@ -581,7 +578,6 @@
       <pinned-members>
         <PinnedItemInfo parentTag="Type#NGross.Core.Elements.ThreadAction" memberName="MethodInfo" />
         <PinnedItemInfo parentTag="Type#NGross.Core.Plan.Test" memberName="ThreadGroups" />
-        <PinnedItemInfo parentTag="Type#NGross.Core.Elements.ThreadGroup" memberName="ThreadGroupContext" />
         <PinnedItemInfo parentTag="Type#NGross.Core.Elements.ThreadGroup" memberName="Actions" />
         <PinnedItemInfo parentTag="Type#NGross.Core.Context.ThreadGroupContext" memberName="Configuration" />
       </pinned-members>

@@ -20,7 +20,7 @@ namespace NGross.Core.Test.Manager;
 [TestFixture]
 public class TestExecutionManagerTest
 {
-    private readonly Mock<ITest> _mockTest = new();
+    private readonly Mock<ITest?> _mockTest = new();
     private readonly Mock<IThreadGroup> _mockThreadGroup = new();
     private readonly Mock<IThreadAction> _mockThreadAction = new();
     private readonly Mock<IThreadingCalculator> _mockThreadCalculator = new();

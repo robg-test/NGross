@@ -1,5 +1,6 @@
 using NGross.Core.Attributes.TestAttributes;
 using NGross.Core.Context;
+using NGross.Core.Measurers;
 using NGross.Core.Models;
 
 namespace NGross.Core.Engine.Parser.ThreadAction;
@@ -10,7 +11,7 @@ public class ActionParser : IActionParser
     {
         IEnumerable<IThreadAction> types = type.GetMethods()
             .Where(m => m.GetCustomAttributes(typeof(ActionAttribute), true).Length > 0)
-            .Select(c => new Elements.ThreadAction(c));
+            .Select(c => new Elements.ThreadAction(c, new Measurer()));
         return types;
     }
 }

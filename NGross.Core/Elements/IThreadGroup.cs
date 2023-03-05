@@ -14,4 +14,5 @@ public interface IThreadGroup
     public IConfiguration ThreadGroupConfiguration { get; set; }
     public IThreadingCalculator Calculator { get; set; }
     public string ThreadGroupConfigurationReference { get; set; }
+    public string ThreadGroupName { get; set; }
 }

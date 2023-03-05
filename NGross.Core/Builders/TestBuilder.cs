@@ -25,7 +25,7 @@ public class TestBuilder : ITestBuilder
         _actionParse = actionParse;
     }
     
-    public ITest Build()
+    public ITest? Build()
     {
         var loader = new AssemblyLoader();
         var assembly = loader.LoadFromAssembly($"{_assemblyName}");
